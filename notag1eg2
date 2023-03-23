@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{
+    float p1 = 0.0,p2 = 0.0;
+    float g1 = 0.0, g2 = 0.0;
+    
+    printf ("Nota da p1: ");
+    scanf ("%f",& p1 );
+    printf ("nota p2: ");
+    scanf("%f",&p2);
+    g1= (p1+p2)/2;
+    //scanf("%f", & g1);
+    if (g1>=7.0) {
+     printf("Tu aprovou em g1 meu  mano!");
+    }  else {
+        if ( g1 < 4.0){
+            printf("rodou");
+
+        } else printf("nota de g2: \n");
+        scanf ("%F", & g2);
+
+        if ((g1+g2) /2 >= 5) {
+            printf("aluno aprovado em g2\n");
+        } else {printf ("aluno reprovado no g2");
+        }
+        
+        
+    }
